@@ -47,5 +47,8 @@ function update(){
 	player2.body.velocity.x = 0;
 	ball.body.maxVelocity.setTo(500,500)
 	
+	if(ball.x = game.world.width - 30){
+		alert("Win/Loss!")
+		}
 		
 	}
