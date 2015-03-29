@@ -10,6 +10,9 @@ function preload(){
 	}
 	
 function create(){
+	var style = { font: "65px Arial", fill: "#ff0044", align: "center" };
+
+    var text = game.add.text(game.world.centerX, game.world.centerY, "Hello Null!", style);
 	game.physics.startSystem(Phaser.Physics.ARCADE);
 	player1 = game.add.sprite(25,game.world.centerY,'player1');
 	player2 = game.add.sprite(750,game.world.centerY,'player1');
